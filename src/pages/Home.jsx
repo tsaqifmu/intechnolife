@@ -1,7 +1,7 @@
 import SwiperHome from '../components/Swiper';
-
+import styles from '../style';
 const home = () => (
-  <div className="flex w-full flex-col items-center justify-center">
+  <div className={`${styles.flexCenter}  w-full flex-col   `}>
     <SwiperHome />
     <p>home</p>
   </div>

@@ -5,10 +5,8 @@ import styles from './style';
 
 const App = () => {
   return (
-    <div className="w-full">
-      <div
-        className={`${styles.paddingX} ${styles.flexCenter} bg-slate-200 font-jakarta`}
-      >
+    <div className="w-full overflow-hidden">
+      <div className={` ${styles.flexCenter} bg-white `}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
         </div>

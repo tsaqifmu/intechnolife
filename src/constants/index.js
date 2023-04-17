@@ -1,3 +1,10 @@
+import {
+  kemeikm6666,
+  oxoneOX199N,
+  realme10,
+  sharpFPJ30Y,
+} from '../assets/index';
+
 export const navLinks = [
   {
     id: 'peralatan-rumah-tangga',
@@ -15,27 +22,31 @@ export const navLinks = [
 
 export const swiperContents = [
   {
-    id: 'feedback-1',
-    content:
-      'Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.',
-    name: 'Herman Jensen',
-    title: 'Founder & Leader',
-    // img: people01,
+    id: 'air-purifier',
+    title: '5 Rekomendasi Air Purifier',
+    author: 'Dika Satria',
+    time:'Maret 21, 2023',
+    img: sharpFPJ30Y,
   },
   {
-    id: 'feedback-2',
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: 'Steve Mark',
-    title: 'Founder & Leader',
-    // img: people02,
+    id: 'air-fryer',
+    title: '5 Rekomendasi Air Fryer',
+    author: 'Dika Satria',
+    time:'Maret 21, 2023',
+    img: oxoneOX199N,
   },
   {
-    id: 'feedback-3',
-    content:
-      'It is usually people in the money business, finance, and international trade that are really rich.',
-    name: 'Kenn Gallagher',
-    title: 'Founder & Leader',
-    // img: people03,
+    id: 'cukur-jenggot',
+    title: '5 Rekomendasi Alat Pencukur Jenggot',
+    author: 'Dika Satria',
+    time:'Maret 21, 2023',
+    img: kemeikm6666,
+  },
+  {
+    id: 'smart-phone',
+    title: '5 Rekomendasi SmartPhone',
+    author: 'Dika Satria',
+    time:'Maret 21, 2023',
+    img: realme10,
   },
 ];
