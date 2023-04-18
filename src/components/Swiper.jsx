@@ -31,9 +31,8 @@ const SwiperHome = () => {
       }}
       navigation={isWideScreen}
       modules={isWideScreen ? [Autoplay, Pagination, Navigation] : [Autoplay]}
-      className={`${styles.boxWidth} h-full w-full`}
+      className={`h-full w-full`}
     >
-
       {swiperContents.map((content) => (
         <SwiperSlide
           key={content.id}
@@ -49,7 +48,6 @@ const SwiperHome = () => {
           </Link>
         </SwiperSlide>
       ))}
-
     </Swiper>
   );
 };
