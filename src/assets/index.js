@@ -15,7 +15,6 @@ import philipsHD9220 from './PhilipsHD9220.webp';
 import realme8i from './realme8i.webp';
 import realme10 from './realme10.jpg';
 import redmi9T from './Redmi9T.png';
-import redmiNote10s from './RedmiNote10s.png';
 import sharpFPJ30Y from './SharpAirPurifierFP-J30Y.jpg';
 import sigmaticSAF1550 from './SigmaticSAF1550.webp';
 import usamZB169 from './USAMSPortableAirPurifierZB169.jpg';
@@ -40,7 +39,6 @@ export {
   realme8i,
   realme10,
   redmi9T,
-  redmiNote10s,
   sharpFPJ30Y,
   sigmaticSAF1550,
   usamZB169,
