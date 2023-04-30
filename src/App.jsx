@@ -2,6 +2,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import styles from './style';
+import ArticlesDetail from './pages/ArticlesDetail';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="articles/:id" element={<ArticlesDetail />} />
       </Routes>
     </div>
   );

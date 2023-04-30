@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { swiperContents } from '../constants';
 import styles from '../style';
 
@@ -6,7 +7,8 @@ const Cards = () => (
     className={`${styles.boxWidth} my-6 flex flex-wrap justify-center gap-3`}
   >
     {swiperContents.map((content) => (
-      <div
+      <Link
+        to={`/articles/${content.id}`}
         key={content.id}
         className="group w-[150px] overflow-hidden rounded-md bg-white md:w-[270px] xl:w-[320px]"
       >
@@ -25,7 +27,7 @@ const Cards = () => (
             {content.text}
           </p>
         </div>
-      </div>
+      </Link>
     ))}
   </section>
 );
