@@ -3,7 +3,7 @@ import Footer from '../components/Footer';
 import SwiperHome from '../components/Swiper';
 import styles from '../style';
 const home = () => (
-  <div className={`${styles.flexCenter}  w-full flex-col `}>
+  <div className={`${styles.flexCenter} w-full flex-col `}>
     <SwiperHome />
     <Cards />
     <Footer />
