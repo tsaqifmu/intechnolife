@@ -1,11 +1,15 @@
-import Cards from '../components/Cards';
-import Footer from '../components/Footer';
-import SwiperHome from '../components/Swiper';
-import styles from '../style';
+import Cards from '../components/Cards.jsx';
+import Footer from '../components/Footer.jsx';
+import SwiperHome from '../components/Swiper.jsx';
+import styles from '../style.js';
 const home = () => (
   <div className={`${styles.flexCenter} w-full flex-col `}>
     <SwiperHome />
-    <Cards />
+    <section
+      className={`${styles.boxWidth} py-6 px-5 flex flex-col justify-center gap-3`}
+    >
+      <Cards />
+    </section>
     <Footer />
   </div>
 );
